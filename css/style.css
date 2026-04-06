@@ -5,8 +5,8 @@ table#tt, table#tt td, table#tt th {
 table#tt {
     border-collapse: collapse;
 }
-table#bt, table#bt, td ,table#bt, th {
-	 border: 2px solid red;
+table#bt,  ,table#bt, th {
+	
 }
 
 table#tt {
@@ -20,4 +20,8 @@ h3 {
 h1 {
   color : darkred;	
 	
+}
+
+img {
+	border-radius: 5px;
 }
