@@ -1,0 +1,61 @@
+.container {
+  padding: 20px;
+  background: linear-gradient(135deg, #da2a2ae8, #d41f25);
+  margin: 50px auto;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.control {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 14px;
+  
+}
+
+.control:focus {
+  border-color: #b85252;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #4b59d4;
+  color: white;
+  font-size: 16px;
+  
+}
+
+button:hover {
+  background: #989caf;
+}
+input{
+  width: 100px;
+  padding: 8px;
+  margin: 8px;
+  box-sizing: border-box;
+}
+

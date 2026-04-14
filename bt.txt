@@ -1,0 +1,27 @@
+table#tt, table#tt td, table#tt th {
+    border: 2px solid slategrey;
+}
+
+table#tt {
+    border-collapse: collapse;
+}
+table#bt,  ,table#bt, th {
+	
+}
+
+table#tt {
+    border-collapse: collapse;
+}
+h3 {
+  color : navy;	
+	
+}
+
+h1 {
+  color : darkred;	
+	
+}
+
+img {
+	border-radius: 5px;
+}
