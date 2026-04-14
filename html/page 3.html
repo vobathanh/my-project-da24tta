@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký thành viên CLB IT HUB</title>
+<link href = "../css/style.css" rel = "stylesheet">
+<a href="../page 3.html"> </a>
+</head>
+
+
+<body>
+
+<div class="container">
+    <h2>Đăng ký thành viên CLB IT HUB</h2>
+
+    <form>
+
+        <div class="form-group">
+            <label>Họ tên:</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-group">
+            <label>MSSV:</label>
+            <input type="text" pattern="[0-9]{8}" placeholder="8 chữ số" required>
+        </div>
+
+        <div class="form-group">
+            <label>Mã lớp:</label>
+            <select class="control">
+                <option>-- Chọn lớp --</option>
+                <option>DTH1</option>
+                <option>DTH2</option>
+                <option>DTH3</option>
+                <option>DTH4</option>
+                <option>DTH5</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Giới tính:</label>
+            <div class="inline">
+                <label><input type="radio" name="gender"> Nam</label>
+                <label><input type="radio" name="gender"> Nữ</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Điểm mạnh:</label>
+            <div class="inline">
+                <label><input type="checkbox"> Code</label>
+                <label><input type="checkbox"> Thiết kế</label>
+                <label><input type="checkbox"> Thuyết trình</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Nội dung giới thiệu:</label>
+            <textarea rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Đăng ký</button>
+            <button type="reset">Nhập lại</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
