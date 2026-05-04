@@ -25,3 +25,36 @@ h1 {
 img {
 	border-radius: 5px;
 }
+
+
+
+.container{
+  padding: 10px;
+  background-color: rgba(235, 57, 57, 0.788);
+  margin:50px auto;
+  width: 500px;
+  border-radius: 5px;
+  
+}
+form{
+  background-color: beige;
+  
+}
+
+.control{
+  display: block;
+  padding: 7px;
+  border: 1px solid burlywood;
+  border-radius:5px ;
+  width: 90px;
+  margin: 5px ;
+}
+#title{
+  text-align: center;
+}
+button{
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid burlywood ;
+}
