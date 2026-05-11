@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trang thông tin cá nhân</title>
+    <!--<link rel = "stylesheet" href = "../css/style5.css">-->
+    <script src = "../js/lib.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class = "container" id = "container">
+        <div class="row" id = "product-list">
+
+        </div>
+
+    </div>
+    <script>
+       // Display Data from the Object:
+        /*for(let i = 0; i<productList.length; i++)
+            addProduct(productList[i].id, productList[i].name, productList[i].price, productList[i].image, productList[i].productLink);
+        */
+        productList.forEach(product => {
+            addProduct(product.id, product.name, product.price, product.image, product.productLink);
+        });
+    </script>
+    
+</body>
+</html>
