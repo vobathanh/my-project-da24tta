@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính thành tiền</title>
+    <link rel="stylesheet" href="../css/stylepage4.2.css">
+</head>
+<body>
+
+<h1>Tính thành tiền</h1>
+
+<div class="container">
+    <table>
+        <tr>
+            <td>Số lượng</td>
+            <td><input type="number" id="soluong"></td>
+        </tr>
+
+        <tr>
+            <td>Đơn giá</td>
+            <td><input type="number" id="dongia"></td>
+        </tr>
+
+        <tr>
+            <td>Thành tiền</td>
+            <td><input type="text" id="thanhtien" readonly> VND</td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    document.getElementById("soluong").onkeyup = tinhTien;
+    document.getElementById("dongia").onkeyup = tinhTien;
+
+    function tinhTien() {
+        let sl = Number(document.getElementById("soluong").value);
+        let dg = Number(document.getElementById("dongia").value);
+        document.getElementById("thanhtien").value = sl * dg;
+    }
+</script>
+
+        <script src="page4.2.js"></script>
+</body>
+</html>
